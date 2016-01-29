@@ -1,2 +1,2 @@
-# OpenStreetMaps API Client
-A PHP OpenStreetMaps API Client
+# OpenStreetMap API Client
+A PHP OpenStreetMap API Client

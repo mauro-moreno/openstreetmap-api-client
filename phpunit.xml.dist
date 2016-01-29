@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        colors="true"
+        bootstrap="./Tests/bootstrap.php"
+>
+
+    <php>
+        <server name="ENV" value="test" />
+    </php>
+
+    <testsuites>
+        <testsuite name="OpenStreetMap Api Client Test Suite">
+            <directory>./Tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <logging>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
+
+</phpunit>
