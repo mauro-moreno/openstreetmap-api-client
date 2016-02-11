@@ -1,4 +1,9 @@
 # OpenStreetMap API Client
+
+[![Build Status](https://travis-ci.org/mauro-moreno/openstreetmap-api-client.svg?branch=master)](https://travis-ci.org/mauro-moreno/openstreetmap-api-client)
+[![Build Status](https://scrutinizer-ci.com/g/mauro-moreno/openstreetmap-api-client/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mauro-moreno/openstreetmap-api-client/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/mauro-moreno/openstreetmap-api-client/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mauro-moreno/openstreetmap-api-client/?branch=master)
+
 A PHP OpenStreetMap API Client
 
 ## Installation
