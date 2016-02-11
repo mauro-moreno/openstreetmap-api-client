@@ -5,4 +5,4 @@ php:
   - 7.0
   - hhvm
 
-before_script: composer install --dev
+before_script: composer install
