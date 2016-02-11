@@ -1,16 +1,29 @@
 {
-    "name": "mauro-moreno/openstreetmap-api-client",
-    "description": "A PHP OpenStreetMap API Client",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mauro Moreno",
-            "email": "moreno.mauro.emanuel@gmail.com"
-        }
-    ],
-    "require": {},
-    "require-dev": {
-        "phpunit/phpunit": ">4.5"
+  "name": "mauro-moreno/openstreetmap-api-client",
+  "description": "A PHP OpenStreetMap API Client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mauro Moreno",
+      "email": "moreno.mauro.emanuel@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "MauroMoreno\\OpenStreetMap\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MauroMoreno\\OpenStreetMap\\Tests\\": "Tests"
+    }
+  }
 }
